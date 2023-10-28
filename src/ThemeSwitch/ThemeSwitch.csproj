@@ -4,11 +4,26 @@
     <TargetFrameworks>net461;net47;net48;net6.0-windows;net7.0-windows</TargetFrameworks>
     <Nullable>disable</Nullable>
     <UseWPF>true</UseWPF>
+    <Version>1.0.0.0</Version>
+    <Authors>jamesnet, lukewire, vickyqu</Authors>
+    <Product>jamesnet</Product>
+    <Copyright>jamesnet</Copyright>
+    <PackageProjectUrl>https://github.com/jamesnet214</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/jamesnet214</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>jamesnet,wpf,xamldesign</PackageTags>
+    <Description>Wpf Support</Description>
+    <PackageIcon>logo.png</PackageIcon>
+    <SuppressTfmSupportBuildWarnings>true</SuppressTfmSupportBuildWarnings>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="Images\cloud.png" />
     <None Remove="Images\stars.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Images\logo.png" Pack="true" PackagePath="" />
   </ItemGroup>
 
   <ItemGroup>
