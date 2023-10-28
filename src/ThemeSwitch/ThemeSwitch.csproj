@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net461;net47;net48;net6.0-windows;net7.0-windows</TargetFrameworks>
+    <Nullable>disable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\cloud.png" />
+    <None Remove="Images\stars.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Jamesnet.Wpf" Version="1.0.0.86" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\cloud.png" />
+    <Resource Include="Images\stars.png" />
+  </ItemGroup>
+
+</Project>
