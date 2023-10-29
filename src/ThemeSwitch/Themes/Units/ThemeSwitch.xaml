@@ -63,14 +63,16 @@
                         </Storyboard>
 
                         <Storyboard x:Key="EllipseMoveRight">
-                            <ThicknessAnimation Storyboard.TargetName="ellipse" Storyboard.TargetProperty="Margin" To="82,0,0,0" Duration="0:0:0.5">                                <ThicknessAnimation.EasingFunction>
+                            <ThicknessAnimation Storyboard.TargetName="ellipse" Storyboard.TargetProperty="Margin" To="82,0,0,0" Duration="0:0:0.5">
+                                <ThicknessAnimation.EasingFunction>
                                     <CubicEase EasingMode="EaseInOut"/>
                                 </ThicknessAnimation.EasingFunction>
                             </ThicknessAnimation>
                         </Storyboard>
 
                         <Storyboard x:Key="EllipseMoveLeft">
-                            <ThicknessAnimation Storyboard.TargetName="ellipse" Storyboard.TargetProperty="Margin" To="8,0,0,0" Duration="0:0:0.5">                                <ThicknessAnimation.EasingFunction>
+                            <ThicknessAnimation Storyboard.TargetName="ellipse" Storyboard.TargetProperty="Margin" To="8,0,0,0" Duration="0:0:0.5">                                
+                                <ThicknessAnimation.EasingFunction>
                                     <CubicEase EasingMode="EaseInOut"/>
                                 </ThicknessAnimation.EasingFunction>
                             </ThicknessAnimation>
@@ -128,7 +130,6 @@
                                 <Image x:Name="image4" Margin="-9,27,0,0" Opacity="0.5" Style="{StaticResource CloudImageStyle}"/>
 
                                 <Ellipse x:Name="ellipse" Width="40" Height="40" Margin="8,0,8,0" HorizontalAlignment="Left" Fill="#ffb15f"/>
-
                             </Grid>
                         </Viewbox>
                     </Border>
