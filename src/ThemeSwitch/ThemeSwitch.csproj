@@ -4,7 +4,7 @@
     <TargetFrameworks>net461;net47;net48;net6.0-windows;net7.0-windows</TargetFrameworks>
     <Nullable>disable</Nullable>
     <UseWPF>true</UseWPF>
-    <Version>1.0.0.2</Version>
+    <Version>1.0.0.3</Version>
     <Authors>jamesnet, lukewire, vickyqu</Authors>
     <Product>jamesnet</Product>
     <Copyright>jamesnet</Copyright>
@@ -27,7 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Jamesnet.Wpf" Version="1.0.0.86" />
+    <PackageReference Include="Jamesnet.Wpf" Version="1.0.0.88" />
   </ItemGroup>
 
   <ItemGroup>
