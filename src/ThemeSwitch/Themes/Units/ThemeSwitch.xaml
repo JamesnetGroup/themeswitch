@@ -4,6 +4,8 @@
     xmlns:units="clr-namespace:ThemeSwitch.UI.Units">
 
     <Style TargetType="{x:Type units:ThemeSwitch}">
+        <Setter Property="Width" Value="130"/>
+        <Setter Property="Height" Value="50"/>
         <Setter Property="Cursor" Value="Hand"/>
         <Setter Property="Template">
             <Setter.Value>
@@ -85,33 +87,36 @@
                             <DoubleAnimation Storyboard.TargetName="image4" Storyboard.TargetProperty="Opacity" To="0" Duration="0:0:0.5"/>
                         </Storyboard>
                     </ControlTemplate.Resources>
+                    <Border BorderThickness="{TemplateBinding BorderThickness}"
+                            BorderBrush="{TemplateBinding BorderBrush}">
+                        <Viewbox>
+                            <Grid Width="130" Height="50">
+                                <Grid.Clip>
+                                    <RectangleGeometry Rect="0,0,130,50">
+                                        <RectangleGeometry.RadiusX>25</RectangleGeometry.RadiusX>
+                                        <RectangleGeometry.RadiusY>25</RectangleGeometry.RadiusY>
+                                    </RectangleGeometry>
+                                </Grid.Clip>
+                                <Border x:Name="bgBorder" Background="#8cbcfa" CornerRadius="25" Visibility="Visible"/>
+                                <Image x:Name="stars" Source="/ThemeSwitch;component/Images/stars.png" Stretch="None" Opacity="0" HorizontalAlignment="Left"/>
 
+                                <Image x:Name="image1" Source="/ThemeSwitch;component/Images/cloud.png" Stretch="None" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="53,12,0,0" Opacity="0.5"/>
+                                <Image x:Name="image2" Source="/ThemeSwitch;component/Images/cloud.png" Stretch="None" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="45,26,0,0"/>
 
-                    <Grid Width="130" Height="50">
-                        <Grid.Clip>
-                            <RectangleGeometry Rect="0,0,130,50">
-                                <RectangleGeometry.RadiusX>25</RectangleGeometry.RadiusX>
-                                <RectangleGeometry.RadiusY>25</RectangleGeometry.RadiusY>
-                            </RectangleGeometry>
-                        </Grid.Clip>
-                        <Border x:Name="bgBorder" Background="#8cbcfa" CornerRadius="25" Visibility="Visible"/>
-                        <Image x:Name="stars" Source="/ThemeSwitch;component/Images/stars.png" Stretch="None" Opacity="0" HorizontalAlignment="Left"/>
+                                <Image x:Name="image3" Source="/ThemeSwitch;component/Images/cloud.png" Stretch="None" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,34,0,0"/>
+                                <Image x:Name="image4" Source="/ThemeSwitch;component/Images/cloud.png" Stretch="None" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-9,27,0,0" Opacity="0.5"/>
 
-                        <Image x:Name="image1" Source="/ThemeSwitch;component/Images/cloud.png" Stretch="None" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="53,12,0,0" Opacity="0.5"/>
-                        <Image x:Name="image2" Source="/ThemeSwitch;component/Images/cloud.png" Stretch="None" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="45,26,0,0"/>
+                                <Ellipse x:Name="ellipse" Fill="#ffb15f" Width="40" Height="40" HorizontalAlignment="Left" Margin="8 0 8 0">
+                                    <Ellipse.BitmapEffect>
+                                        <BitmapEffectGroup>
+                                            <OuterGlowBitmapEffect GlowColor="Black" GlowSize="5" Opacity="0.6"/>
+                                        </BitmapEffectGroup>
+                                    </Ellipse.BitmapEffect>
+                                </Ellipse>
 
-                        <Image x:Name="image3" Source="/ThemeSwitch;component/Images/cloud.png" Stretch="None" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,34,0,0"/>
-                        <Image x:Name="image4" Source="/ThemeSwitch;component/Images/cloud.png" Stretch="None" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-9,27,0,0" Opacity="0.5"/>
-
-                        <Ellipse x:Name="ellipse" Fill="#ffb15f" Width="40" Height="40" HorizontalAlignment="Left" Margin="8 0 8 0">
-                            <Ellipse.BitmapEffect>
-                                <BitmapEffectGroup>
-                                    <OuterGlowBitmapEffect GlowColor="Black" GlowSize="5" Opacity="0.6"/>
-                                </BitmapEffectGroup>
-                            </Ellipse.BitmapEffect>
-                        </Ellipse>
-
-                    </Grid>
+                            </Grid>
+                        </Viewbox>
+                    </Border>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsChecked" Value="True">
                             <Trigger.EnterActions>

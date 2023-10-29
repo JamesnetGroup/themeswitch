@@ -9,12 +9,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Jamesnet.Wpf" Version="1.0.0.86" />
+    <PackageReference Include="Jamesnet.Wpf" Version="1.0.0.87" />
+    <PackageReference Include="ThemeSwitch" Version="1.0.0" />
     <PackageReference Include="XamlDesign.Wpf" Version="1.0.0.9" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\ThemeSwitch\ThemeSwitch.csproj" />
   </ItemGroup>
 
 </Project>
