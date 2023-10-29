@@ -3,6 +3,21 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:units="clr-namespace:ThemeSwitch.UI.Units">
 
+    <Style TargetType="{x:Type Image}" x:Key="BaseImageStyle" >
+        <Setter Property="Stretch" Value="None" />
+        <Setter Property="HorizontalAlignment" Value="Left" />
+    </Style>
+    <Style TargetType="{x:Type Image}" x:Key="StartImageStyle" 
+           BasedOn="{StaticResource BaseImageStyle}">
+        <Setter Property="Source" Value="/ThemeSwitch;component/Images/stars.png" />
+        <Setter Property="Opacity" Value="0" />
+    </Style>
+    <Style TargetType="{x:Type Image}" x:Key="CloudImageStyle" 
+           BasedOn="{StaticResource BaseImageStyle}">
+        <Setter Property="Source" Value="/ThemeSwitch;component/Images/cloud.png" />
+        <Setter Property="VerticalAlignment" Value="Top" />
+    </Style>
+    
     <Style TargetType="{x:Type units:ThemeSwitch}">
         <Setter Property="Width" Value="130" />
         <Setter Property="Height" Value="50" />
@@ -12,201 +27,85 @@
                 <ControlTemplate TargetType="{x:Type units:ThemeSwitch}">
                     <ControlTemplate.Resources>
                         <Storyboard x:Key="MoveRightOutAnimation">
-                            <ThicknessAnimation
-                                Storyboard.TargetName="image1"
-                                Storyboard.TargetProperty="Margin"
-                                To="183,-58,0,-50"
-                                Duration="0:0:0.5" />
-                            <ThicknessAnimation
-                                Storyboard.TargetName="image2"
-                                Storyboard.TargetProperty="Margin"
-                                To="175,-24,0,-50"
-                                Duration="0:0:0.5" />
+                            <ThicknessAnimation Storyboard.TargetName="image1" Storyboard.TargetProperty="Margin" To="183,-58,0,-50" Duration="0:0:0.5"/>                            
+                            <ThicknessAnimation Storyboard.TargetName="image2" Storyboard.TargetProperty="Margin" To="175,-24,0,-50" Duration="0:0:0.5"/>
                         </Storyboard>
 
                         <Storyboard x:Key="MoveRightInAnimation">
-                            <ThicknessAnimation
-                                Storyboard.TargetName="image1"
-                                Storyboard.TargetProperty="Margin"
-                                To="53,12,0,0"
-                                Duration="0:0:0.5" />
-                            <ThicknessAnimation
-                                Storyboard.TargetName="image2"
-                                Storyboard.TargetProperty="Margin"
-                                To="45,26,0,0"
-                                Duration="0:0:0.5" />
+                            <ThicknessAnimation Storyboard.TargetName="image1" Storyboard.TargetProperty="Margin" To="53,12,0,0" Duration="0:0:0.5"/>
+                            <ThicknessAnimation Storyboard.TargetName="image2" Storyboard.TargetProperty="Margin" To="45,26,0,0" Duration="0:0:0.5"/>
                         </Storyboard>
 
                         <Storyboard x:Key="MoveLeftOutAnimation">
-                            <ThicknessAnimation
-                                Storyboard.TargetName="image3"
-                                Storyboard.TargetProperty="Margin"
-                                To="-140,0,0,0"
-                                Duration="0:0:0.5" />
-                            <ThicknessAnimation
-                                Storyboard.TargetName="image4"
-                                Storyboard.TargetProperty="Margin"
-                                To="-139,-33,0,-50"
-                                Duration="0:0:0.5" />
+                            <ThicknessAnimation Storyboard.TargetName="image3" Storyboard.TargetProperty="Margin" To="-140,0,0,0" Duration="0:0:0.5"/>
+                            <ThicknessAnimation Storyboard.TargetName="image4" Storyboard.TargetProperty="Margin" To="-139,-33,0,-50" Duration="0:0:0.5"/>
                         </Storyboard>
 
                         <Storyboard x:Key="MoveLeftInAnimation">
-                            <ThicknessAnimation
-                                Storyboard.TargetName="image3"
-                                Storyboard.TargetProperty="Margin"
-                                To="-10,34,0,0"
-                                Duration="0:0:0.5" />
-                            <ThicknessAnimation
-                                Storyboard.TargetName="image4"
-                                Storyboard.TargetProperty="Margin"
-                                To="-9,27,0,0"
-                                Duration="0:0:0.5" />
+                            <ThicknessAnimation Storyboard.TargetName="image3" Storyboard.TargetProperty="Margin" To="-10,34,0,0" Duration="0:0:0.5"/>
+                            <ThicknessAnimation Storyboard.TargetName="image4" Storyboard.TargetProperty="Margin" To="-9,27,0,0" Duration="0:0:0.5"/>
                         </Storyboard>
 
                         <Storyboard x:Key="BackgroundColorChangeToDark">
-                            <ColorAnimation
-                                Storyboard.TargetName="bgBorder"
-                                Storyboard.TargetProperty="(Background).(SolidColorBrush.Color)"
-                                To="#191c25"
-                                Duration="0:0:0.5" />
+                            <ColorAnimation Storyboard.TargetName="bgBorder" Storyboard.TargetProperty="(Background).(SolidColorBrush.Color)" To="#191c25" Duration="0:0:0.5"/>
                         </Storyboard>
 
                         <Storyboard x:Key="BackgroundColorChangeToLight">
-                            <ColorAnimation
-                                Storyboard.TargetName="bgBorder"
-                                Storyboard.TargetProperty="(Background).(SolidColorBrush.Color)"
-                                To="#8cbcfa"
-                                Duration="0:0:0.5" />
+                            <ColorAnimation Storyboard.TargetName="bgBorder" Storyboard.TargetProperty="(Background).(SolidColorBrush.Color)" To="#8cbcfa" Duration="0:0:0.5"/>
                         </Storyboard>
 
                         <Storyboard x:Key="StarsFadeIn">
-                            <DoubleAnimation
-                                Storyboard.TargetName="stars"
-                                Storyboard.TargetProperty="Opacity"
-                                From="0"
-                                To="1"
-                                Duration="0:0:0.5" />
+                            <DoubleAnimation Storyboard.TargetName="stars" Storyboard.TargetProperty="Opacity" From="0" To="1" Duration="0:0:0.5"/>
                         </Storyboard>
 
                         <Storyboard x:Key="StarsFadeOut">
-                            <DoubleAnimation
-                                Storyboard.TargetName="stars"
-                                Storyboard.TargetProperty="Opacity"
-                                From="1"
-                                To="0"
-                                Duration="0:0:0.5" />
+                            <DoubleAnimation Storyboard.TargetName="stars" Storyboard.TargetProperty="Opacity" From="1" To="0" Duration="0:0:0.5"/>
                         </Storyboard>
 
                         <Storyboard x:Key="EllipseMoveRight">
-                            <ThicknessAnimation
-                                Storyboard.TargetName="ellipse"
-                                Storyboard.TargetProperty="Margin"
-                                To="82,0,0,0"
-                                Duration="0:0:0.5">
-                                <ThicknessAnimation.EasingFunction>
-                                    <CubicEase EasingMode="EaseInOut" />
+                            <ThicknessAnimation Storyboard.TargetName="ellipse" Storyboard.TargetProperty="Margin" To="82,0,0,0" Duration="0:0:0.5">                                <ThicknessAnimation.EasingFunction>
+                                    <CubicEase EasingMode="EaseInOut"/>
                                 </ThicknessAnimation.EasingFunction>
                             </ThicknessAnimation>
                         </Storyboard>
 
                         <Storyboard x:Key="EllipseMoveLeft">
-                            <ThicknessAnimation
-                                Storyboard.TargetName="ellipse"
-                                Storyboard.TargetProperty="Margin"
-                                To="8,0,0,0"
-                                Duration="0:0:0.5">
-                                <ThicknessAnimation.EasingFunction>
-                                    <CubicEase EasingMode="EaseInOut" />
+                            <ThicknessAnimation Storyboard.TargetName="ellipse" Storyboard.TargetProperty="Margin" To="8,0,0,0" Duration="0:0:0.5">                                <ThicknessAnimation.EasingFunction>
+                                    <CubicEase EasingMode="EaseInOut"/>
                                 </ThicknessAnimation.EasingFunction>
                             </ThicknessAnimation>
                         </Storyboard>
 
                         <Storyboard x:Key="EllipseFillColorToDark">
-                            <ColorAnimation
-                                Storyboard.TargetName="ellipse"
-                                Storyboard.TargetProperty="(Fill).(SolidColorBrush.Color)"
-                                To="#e6b91b"
-                                Duration="0:0:0.5" />
+                            <ColorAnimation Storyboard.TargetName="ellipse" Storyboard.TargetProperty="(Fill).(SolidColorBrush.Color)" To="#e6b91b" Duration="0:0:0.5"/>
                         </Storyboard>
 
                         <Storyboard x:Key="EllipseFillColorToLight">
-                            <ColorAnimation
-                                Storyboard.TargetName="ellipse"
-                                Storyboard.TargetProperty="(Fill).(SolidColorBrush.Color)"
-                                To="#ffb15f"
-                                Duration="0:0:0.5" />
+                            <ColorAnimation Storyboard.TargetName="ellipse" Storyboard.TargetProperty="(Fill).(SolidColorBrush.Color)" To="#ffb15f" Duration="0:0:0.5"/>
                         </Storyboard>
 
                         <Storyboard x:Key="StarsSlideIn">
-                            <DoubleAnimation
-                                Storyboard.TargetName="stars"
-                                Storyboard.TargetProperty="Opacity"
-                                To="1"
-                                Duration="0:0:0.5" />
-                            <ThicknessAnimation
-                                Storyboard.TargetName="stars"
-                                Storyboard.TargetProperty="Margin"
-                                To="0,0,0,0"
-                                Duration="0:0:0.5" />
+                            <DoubleAnimation Storyboard.TargetName="stars" Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:0.5"/>
+                            <ThicknessAnimation Storyboard.TargetName="stars" Storyboard.TargetProperty="Margin" To="0,0,0,0" Duration="0:0:0.5"/>
                         </Storyboard>
 
                         <Storyboard x:Key="StarsSlideOut">
-                            <DoubleAnimation
-                                Storyboard.TargetName="stars"
-                                Storyboard.TargetProperty="Opacity"
-                                To="0"
-                                Duration="0:0:0.5" />
-                            <ThicknessAnimation
-                                Storyboard.TargetName="stars"
-                                Storyboard.TargetProperty="Margin"
-                                To="0,-50,0,0"
-                                Duration="0:0:0.5" />
+                            <DoubleAnimation Storyboard.TargetName="stars" Storyboard.TargetProperty="Opacity" To="0" Duration="0:0:0.5"/>
+                            <ThicknessAnimation Storyboard.TargetName="stars" Storyboard.TargetProperty="Margin" To="0,-50,0,0" Duration="0:0:0.5"/>
                         </Storyboard>
 
                         <Storyboard x:Key="ImagesFadeIn">
-                            <DoubleAnimation
-                                Storyboard.TargetName="image1"
-                                Storyboard.TargetProperty="Opacity"
-                                To="0.5"
-                                Duration="0:0:0.5" />
-                            <DoubleAnimation
-                                Storyboard.TargetName="image2"
-                                Storyboard.TargetProperty="Opacity"
-                                To="0.5"
-                                Duration="0:0:0.5" />
-                            <DoubleAnimation
-                                Storyboard.TargetName="image3"
-                                Storyboard.TargetProperty="Opacity"
-                                To="1"
-                                Duration="0:0:0.5" />
-                            <DoubleAnimation
-                                Storyboard.TargetName="image4"
-                                Storyboard.TargetProperty="Opacity"
-                                To="0.5"
-                                Duration="0:0:0.5" />
+                            <DoubleAnimation Storyboard.TargetName="image1" Storyboard.TargetProperty="Opacity" To="0.5" Duration="0:0:0.5"/>
+                            <DoubleAnimation Storyboard.TargetName="image2" Storyboard.TargetProperty="Opacity" To="0.5" Duration="0:0:0.5"/>
+                            <DoubleAnimation Storyboard.TargetName="image3" Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:0.5"/>
+                            <DoubleAnimation Storyboard.TargetName="image4" Storyboard.TargetProperty="Opacity" To="0.5" Duration="0:0:0.5"/>
                         </Storyboard>
 
                         <Storyboard x:Key="ImagesFadeOut">
-                            <DoubleAnimation
-                                Storyboard.TargetName="image1"
-                                Storyboard.TargetProperty="Opacity"
-                                To="0"
-                                Duration="0:0:0.5" />
-                            <DoubleAnimation
-                                Storyboard.TargetName="image2"
-                                Storyboard.TargetProperty="Opacity"
-                                To="0"
-                                Duration="0:0:0.5" />
-                            <DoubleAnimation
-                                Storyboard.TargetName="image3"
-                                Storyboard.TargetProperty="Opacity"
-                                To="0"
-                                Duration="0:0:0.5" />
-                            <DoubleAnimation
-                                Storyboard.TargetName="image4"
-                                Storyboard.TargetProperty="Opacity"
-                                To="0"
-                                Duration="0:0:0.5" />
+                            <DoubleAnimation Storyboard.TargetName="image1" Storyboard.TargetProperty="Opacity" To="0" Duration="0:0:0.5"/>
+                            <DoubleAnimation Storyboard.TargetName="image2" Storyboard.TargetProperty="Opacity" To="0" Duration="0:0:0.5"/>
+                            <DoubleAnimation Storyboard.TargetName="image3" Storyboard.TargetProperty="Opacity" To="0" Duration="0:0:0.5"/>
+                            <DoubleAnimation Storyboard.TargetName="image4" Storyboard.TargetProperty="Opacity" To="0" Duration="0:0:0.5"/>
                         </Storyboard>
                     </ControlTemplate.Resources>
                     <Border BorderThickness="{TemplateBinding BorderThickness}"
@@ -220,69 +119,15 @@
                                         <RectangleGeometry.RadiusY>25</RectangleGeometry.RadiusY>
                                     </RectangleGeometry>
                                 </Grid.Clip>
-                                <Grid.Resources>
-                                    <Style x:Key="BaseImageStyle" TargetType="{x:Type Image}">
-                                        <Setter Property="Stretch" Value="None" />
-                                        <Setter Property="HorizontalAlignment" Value="Left" />
-                                    </Style>
-                                    <Style
-                                        x:Key="StartImageStyle"
-                                        BasedOn="{StaticResource BaseImageStyle}"
-                                        TargetType="{x:Type Image}">
-                                        <Setter Property="Source" Value="/ThemeSwitch;component/Images/stars.png" />
-                                        <Setter Property="Opacity" Value="0" />
-                                    </Style>
-                                    <Style
-                                        x:Key="CloudImageStyle"
-                                        BasedOn="{StaticResource BaseImageStyle}"
-                                        TargetType="{x:Type Image}">
-                                        <Setter Property="Source" Value="/ThemeSwitch;component/Images/cloud.png" />
-                                        <Setter Property="VerticalAlignment" Value="Top" />
-                                    </Style>
-                                </Grid.Resources>
-                                <Border
-                                    x:Name="bgBorder"
-                                    Background="#8cbcfa"
-                                    CornerRadius="25"
-                                    Visibility="Visible" />
-                                <Image x:Name="stars" Style="{StaticResource StartImageStyle}" />
+                                <Border x:Name="bgBorder" Background="#8cbcfa" CornerRadius="25" Visibility="Visible"/>
+                                <Image x:Name="stars" Style="{StaticResource StartImageStyle}"/>
 
-                                <Image
-                                    x:Name="image1"
-                                    Margin="53,12,0,0"
-                                    Opacity="0.5"
-                                    Style="{StaticResource CloudImageStyle}" />
-                                <Image
-                                    x:Name="image2"
-                                    Margin="45,26,0,0"
-                                    Style="{StaticResource CloudImageStyle}" />
+                                <Image x:Name="image1" Margin="53,12,0,0" Opacity="0.5" Style="{StaticResource CloudImageStyle}"/>
+                                <Image x:Name="image2" Margin="45,26,0,0" Style="{StaticResource CloudImageStyle}"/>
+                                <Image x:Name="image3" Margin="0,34,0,0" Style="{StaticResource CloudImageStyle}" />
+                                <Image x:Name="image4" Margin="-9,27,0,0" Opacity="0.5" Style="{StaticResource CloudImageStyle}"/>
 
-                                <Image
-                                    x:Name="image3"
-                                    Margin="0,34,0,0"
-                                    Style="{StaticResource CloudImageStyle}" />
-                                <Image
-                                    x:Name="image4"
-                                    Margin="-9,27,0,0"
-                                    Opacity="0.5"
-                                    Style="{StaticResource CloudImageStyle}" />
-
-                                <Ellipse
-                                    x:Name="ellipse"
-                                    Width="40"
-                                    Height="40"
-                                    Margin="8,0,8,0"
-                                    HorizontalAlignment="Left"
-                                    Fill="#ffb15f">
-                                    <Ellipse.BitmapEffect>
-                                        <BitmapEffectGroup>
-                                            <OuterGlowBitmapEffect
-                                                GlowColor="Black"
-                                                GlowSize="5"
-                                                Opacity="0.6" />
-                                        </BitmapEffectGroup>
-                                    </Ellipse.BitmapEffect>
-                                </Ellipse>
+                                <Ellipse x:Name="ellipse" Width="40" Height="40" Margin="8,0,8,0" HorizontalAlignment="Left" Fill="#ffb15f"/>
 
                             </Grid>
                         </Viewbox>
