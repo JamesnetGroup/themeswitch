@@ -1,0 +1,10 @@
+﻿fonts:
+  - key: BasicFont
+    fonts:
+      black: Segoe UI
+      light: Segoe UI
+themes:
+  - key: BaseBackColor
+    colors:
+      black: "#2a3139"
+      light: "#f6e9d9"

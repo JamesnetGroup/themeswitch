@@ -6,10 +6,11 @@
     xmlns:views="clr-namespace:DemoApp.UI.Views">
     <Style TargetType="{x:Type views:DemoWindow}"
            BasedOn="{StaticResource {x:Type james:DarkThemeWindow}}">
-        <Setter Property="Title" Value="Theme Switch"/>
+        <Setter Property="Background" Value="{DynamicResource BaseBackColor}"/>
+        <Setter Property="Title" Value="{DynamicResource ApplicationTitle}"/>
         <Setter Property="Content">
             <Setter.Value>
-                <themeswitch:ThemeSwitch/>
+                <themeswitch:ThemeSwitch IsChecked="{Binding IsThemeChecked}"/>
             </Setter.Value>
         </Setter>
     </Style>

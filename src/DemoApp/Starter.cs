@@ -1,4 +1,5 @@
-﻿using Jamesnet.Wpf.Controls;
+﻿using DemoApp.Properties;
+using Jamesnet.Wpf.Controls;
 using System.Windows;
 
 namespace DemoApp
@@ -8,7 +9,11 @@ namespace DemoApp
         [STAThread]
         private static void Main(string[] args)
         {
-            _ = new App().Run();
+            _ = new App()
+                .InitializeResource<BaseResource>()
+                .AddInversionModule<ViewModules>()
+                .AddWireDataContext<WireDataContext>()
+                .Run();
         }
     }
 }

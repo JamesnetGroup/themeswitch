@@ -9,6 +9,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Themes\Language.yaml" />
+    <None Remove="Themes\Theme.yaml" />
+    <None Remove="Themes\Views\Languages.yaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Themes\Language.yaml" />
+    <EmbeddedResource Include="Themes\Theme.yaml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Jamesnet.Wpf" Version="1.0.0.88" />
     <PackageReference Include="XamlDesign.Wpf" Version="1.0.0.9" />
   </ItemGroup>
