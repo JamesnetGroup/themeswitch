@@ -1,4 +1,4 @@
 # themeswitch
 ### 🔍Preview
 
-https://github.com/jamesnet214/themeswitch/blob/main/ThemeSwitch.mp4
+https://raw.githubusercontent.com/jamesnet214/themeswitch/main/ThemeSwitch.mp4
