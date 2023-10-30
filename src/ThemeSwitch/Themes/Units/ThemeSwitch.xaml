@@ -9,8 +9,11 @@
     </Style>
     <Style TargetType="{x:Type Image}" x:Key="StartImageStyle" 
            BasedOn="{StaticResource BaseImageStyle}">
-        <Setter Property="Source" Value="/ThemeSwitch;component/Images/stars.png" />
-        <Setter Property="Opacity" Value="0" />
+        <Setter Property="Source" Value="/ThemeSwitch;component/Images/stars.png"/>
+        <Setter Property="Width" Value="72"/>
+        <Setter Property="Height" Value="47"/>
+        <Setter Property="Opacity" Value="0"/>
+        <Setter Property="Stretch" Value="None"/>
     </Style>
     <Style TargetType="{x:Type Image}" x:Key="CloudImageStyle" 
            BasedOn="{StaticResource BaseImageStyle}">
@@ -27,78 +30,56 @@
                 <ControlTemplate TargetType="{x:Type units:ThemeSwitch}">
                     <ControlTemplate.Resources>
                         <Storyboard x:Key="MoveRightOutAnimation">
-                            <ThicknessAnimation Storyboard.TargetName="image1" Storyboard.TargetProperty="Margin" To="183,-58,0,-50" Duration="0:0:0.5"/>                            
-                            <ThicknessAnimation Storyboard.TargetName="image2" Storyboard.TargetProperty="Margin" To="175,-24,0,-50" Duration="0:0:0.5"/>
+                            <units:ThicknessItem TargetName="image1" Property="Margin" To="183,-58,0,-50" Duration="0:0:0.5"/>
+                            <units:ThicknessItem TargetName="image2" Property="Margin" To="175,-24,0,-50" Duration="0:0:0.5"/>
                         </Storyboard>
-
                         <Storyboard x:Key="MoveRightInAnimation">
-                            <ThicknessAnimation Storyboard.TargetName="image1" Storyboard.TargetProperty="Margin" To="53,12,0,0" Duration="0:0:0.5"/>
-                            <ThicknessAnimation Storyboard.TargetName="image2" Storyboard.TargetProperty="Margin" To="45,26,0,0" Duration="0:0:0.5"/>
+                            <units:ThicknessItem TargetName="image1" Property="Margin" To="53,12,0,0" Duration="0:0:0.5"/>
+                            <units:ThicknessItem TargetName="image2" Property="Margin" To="45,26,0,0" Duration="0:0:0.5"/>
                         </Storyboard>
-
                         <Storyboard x:Key="MoveLeftOutAnimation">
-                            <ThicknessAnimation Storyboard.TargetName="image3" Storyboard.TargetProperty="Margin" To="-140,0,0,0" Duration="0:0:0.5"/>
-                            <ThicknessAnimation Storyboard.TargetName="image4" Storyboard.TargetProperty="Margin" To="-139,-33,0,-50" Duration="0:0:0.5"/>
+                            <units:ThicknessItem TargetName="image3" Storyboard.TargetProperty="Margin" To="-140,0,0,0" Duration="0:0:0.5"/>
+                            <units:ThicknessItem TargetName="image4" Storyboard.TargetProperty="Margin" To="-139,-33,0,-50" Duration="0:0:0.5"/>
                         </Storyboard>
-
                         <Storyboard x:Key="MoveLeftInAnimation">
-                            <ThicknessAnimation Storyboard.TargetName="image3" Storyboard.TargetProperty="Margin" To="-10,34,0,0" Duration="0:0:0.5"/>
-                            <ThicknessAnimation Storyboard.TargetName="image4" Storyboard.TargetProperty="Margin" To="-9,27,0,0" Duration="0:0:0.5"/>
+                            <units:ThicknessItem TargetName="image3" Property="Margin" To="-10,34,0,0" Duration="0:0:0.5"/>
+                            <units:ThicknessItem TargetName="image4" Property="Margin" To="-9,27,0,0" Duration="0:0:0.5"/>
                         </Storyboard>
-
                         <Storyboard x:Key="BackgroundColorChangeToDark">
                             <ColorAnimation Storyboard.TargetName="bgBorder" Storyboard.TargetProperty="(Background).(SolidColorBrush.Color)" To="#191c25" Duration="0:0:0.5"/>
                         </Storyboard>
-
                         <Storyboard x:Key="BackgroundColorChangeToLight">
                             <ColorAnimation Storyboard.TargetName="bgBorder" Storyboard.TargetProperty="(Background).(SolidColorBrush.Color)" To="#8cbcfa" Duration="0:0:0.5"/>
                         </Storyboard>
-
                         <Storyboard x:Key="StarsFadeIn">
                             <DoubleAnimation Storyboard.TargetName="stars" Storyboard.TargetProperty="Opacity" From="0" To="1" Duration="0:0:0.5"/>
                         </Storyboard>
-
                         <Storyboard x:Key="StarsFadeOut">
                             <DoubleAnimation Storyboard.TargetName="stars" Storyboard.TargetProperty="Opacity" From="1" To="0" Duration="0:0:0.5"/>
                         </Storyboard>
-
                         <Storyboard x:Key="EllipseMoveRight">
-                            <ThicknessAnimation Storyboard.TargetName="ellipse" Storyboard.TargetProperty="Margin" To="82,0,0,0" Duration="0:0:0.5">
-                                <ThicknessAnimation.EasingFunction>
-                                    <CubicEase EasingMode="EaseInOut"/>
-                                </ThicknessAnimation.EasingFunction>
-                            </ThicknessAnimation>
+                            <units:ThicknessItem TargetName="ellipse" Property="Margin" To="82,0,0,0" Duration="0:0:0.5" Mode="EaseInOut"/>
                         </Storyboard>
-
                         <Storyboard x:Key="EllipseMoveLeft">
-                            <ThicknessAnimation Storyboard.TargetName="ellipse" Storyboard.TargetProperty="Margin" To="8,0,0,0" Duration="0:0:0.5">                                
-                                <ThicknessAnimation.EasingFunction>
-                                    <CubicEase EasingMode="EaseInOut"/>
-                                </ThicknessAnimation.EasingFunction>
-                            </ThicknessAnimation>
+                            <units:ThicknessItem TargetName="ellipse" Property="Margin" To="8,0,0,0" Duration="0:0:0.5" Mode="EaseInOut"/>
                         </Storyboard>
-
                         <Storyboard x:Key="EllipseFillColorToDark">
                             <ColorAnimation Storyboard.TargetName="ellipse" Storyboard.TargetProperty="(Fill).(SolidColorBrush.Color)" To="#e6b91b" Duration="0:0:0.5"/>
                         </Storyboard>
-
                         <Storyboard x:Key="EllipseFillColorToLight">
                             <ColorAnimation Storyboard.TargetName="ellipse" Storyboard.TargetProperty="(Fill).(SolidColorBrush.Color)" To="#ffb15f" Duration="0:0:0.5"/>
                         </Storyboard>
-
                         <Storyboard x:Key="StarsSlideIn">
                             <DoubleAnimation Storyboard.TargetName="stars" Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:0.5"/>
-                            <ThicknessAnimation Storyboard.TargetName="stars" Storyboard.TargetProperty="Margin" To="0,0,0,0" Duration="0:0:0.5"/>
+                            <units:ThicknessItem TargetName="stars" Property="Margin" To="0,0,0,0" Duration="0:0:0.5"/>
                         </Storyboard>
-
                         <Storyboard x:Key="StarsSlideOut">
                             <DoubleAnimation Storyboard.TargetName="stars" Storyboard.TargetProperty="Opacity" To="0" Duration="0:0:0.5"/>
-                            <ThicknessAnimation Storyboard.TargetName="stars" Storyboard.TargetProperty="Margin" To="0,-50,0,0" Duration="0:0:0.5"/>
+                            <units:ThicknessItem TargetName="stars" Property="Margin" To="0,-50,0,0" Duration="0:0:0.5"/>
                         </Storyboard>
-
                         <Storyboard x:Key="ImagesFadeIn">
                             <DoubleAnimation Storyboard.TargetName="image1" Storyboard.TargetProperty="Opacity" To="0.5" Duration="0:0:0.5"/>
-                            <DoubleAnimation Storyboard.TargetName="image2" Storyboard.TargetProperty="Opacity" To="0.5" Duration="0:0:0.5"/>
+                            <DoubleAnimation Storyboard.TargetName="image2" Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:0.5"/>
                             <DoubleAnimation Storyboard.TargetName="image3" Storyboard.TargetProperty="Opacity" To="1" Duration="0:0:0.5"/>
                             <DoubleAnimation Storyboard.TargetName="image4" Storyboard.TargetProperty="Opacity" To="0.5" Duration="0:0:0.5"/>
                         </Storyboard>
