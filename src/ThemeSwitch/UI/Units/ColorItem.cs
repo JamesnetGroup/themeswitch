@@ -9,14 +9,14 @@ using System.Windows.Media.Animation;
 
 namespace ThemeSwitch.UI.Units
 {
-    public class ThickItem : ThicknessAnimation
+    public class ColorItem : ColorAnimation
     {
         #region TargetName
 
         public static readonly DependencyProperty TargetNameProperty = DependencyProperty.Register(
             "TargetName",
             typeof(string),
-            typeof(ThickItem),
+            typeof(ColorItem),
             new PropertyMetadata(null, OnTargetNameChanged)
         );
 
@@ -32,7 +32,7 @@ namespace ThemeSwitch.UI.Units
         public static readonly DependencyProperty PropertyProperty = DependencyProperty.Register(
             "Property",
             typeof(PropertyPath),
-            typeof(ThickItem),
+            typeof(ColorItem),
             new PropertyMetadata(null, OnPropertyChanged)
         );
 
@@ -45,7 +45,7 @@ namespace ThemeSwitch.UI.Units
 
         private static void OnTargetNameChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {
-            var item = (ThickItem)d;
+            var item = (ColorItem)d;
             var targetName = (string)e.NewValue;
 
             Storyboard.SetTargetName(item, targetName);
@@ -53,7 +53,7 @@ namespace ThemeSwitch.UI.Units
 
         private static void OnPropertyChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {
-            var item = (ThickItem)d;
+            var item = (ColorItem)d;
             var propertyPath = (PropertyPath)e.NewValue;
 
             Storyboard.SetTargetProperty(item, propertyPath);
@@ -64,7 +64,7 @@ namespace ThemeSwitch.UI.Units
         public static readonly DependencyProperty ModeProperty = DependencyProperty.Register(
             "Mode",
             typeof(EasingMode),
-            typeof(ThickItem),
+            typeof(ColorItem),
             new PropertyMetadata(EasingMode.EaseOut, OnEasingModeChanged)
         );
 
@@ -77,7 +77,7 @@ namespace ThemeSwitch.UI.Units
 
         private static void OnEasingModeChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
         {
-            var item = (ThickItem)d;
+            var item = (ColorItem)d;
             var easingMode = (EasingMode)e.NewValue;
 
             if (item.EasingFunction is CubicEase cubicEase)
