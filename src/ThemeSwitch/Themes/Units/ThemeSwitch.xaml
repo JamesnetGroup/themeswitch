@@ -1,6 +1,7 @@
 <ResourceDictionary
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:james="https://jamesnet.dev/xaml/presentation"
     xmlns:units="clr-namespace:ThemeSwitch.UI.Units">
 
     <Style TargetType="{x:Type Grid}" x:Key="RoundGridStyle">
@@ -53,38 +54,38 @@
                 <ControlTemplate TargetType="{x:Type units:ThemeSwitch}">
                     <ControlTemplate.Resources>
                         <Storyboard x:Key="SlideOut">
-                            <units:ThickItem TargetName="cloud1" Duration="0:0:0.5" Property="Margin" To="183,-58,0,-50"/>
-                            <units:ThickItem TargetName="cloud2" Duration="0:0:0.5" Property="Margin" To="175,-24,0,-50"/>
-                            <units:ThickItem TargetName="cloud3" Duration="0:0:0.5" Property="Margin" To="-140,0,0,0"/>
-                            <units:ThickItem TargetName="cloud4" Duration="0:0:0.5" Property="Margin" To="-139,-33,0,-50"/>
-                            <units:ValueItem TargetName="cloud1" Duration="0:0:0.5" Property="Opacity" To="0"/>
-                            <units:ValueItem TargetName="cloud2" Duration="0:0:0.5" Property="Opacity" To="0"/>
-                            <units:ValueItem TargetName="cloud3" Duration="0:0:0.5" Property="Opacity" To="0"/>
-                            <units:ValueItem TargetName="cloud4" Duration="0:0:0.5" Property="Opacity" To="0"/>
+                            <james:ThickItem TargetName="cloud1" Duration="0:0:0.5" Property="Margin" To="183,-58,0,-50"/>
+                            <james:ThickItem TargetName="cloud2" Duration="0:0:0.5" Property="Margin" To="175,-24,0,-50"/>
+                            <james:ThickItem TargetName="cloud3" Duration="0:0:0.5" Property="Margin" To="-140,0,0,0"/>
+                            <james:ThickItem TargetName="cloud4" Duration="0:0:0.5" Property="Margin" To="-139,-33,0,-50"/>
+                            <james:ValueItem TargetName="cloud1" Duration="0:0:0.5" Property="Opacity" To="0"/>
+                            <james:ValueItem TargetName="cloud2" Duration="0:0:0.5" Property="Opacity" To="0"/>
+                            <james:ValueItem TargetName="cloud3" Duration="0:0:0.5" Property="Opacity" To="0"/>
+                            <james:ValueItem TargetName="cloud4" Duration="0:0:0.5" Property="Opacity" To="0"/>
                         </Storyboard>
                         <Storyboard x:Key="SlideIn">
-                            <units:ThickItem TargetName="cloud1" Duration="0:0:0.5" Property="Margin" To="53,12,0,0"/>
-                            <units:ThickItem TargetName="cloud2" Duration="0:0:0.5" Property="Margin" To="45,26,0,0"/>
-                            <units:ThickItem TargetName="cloud3" Duration="0:0:0.5" Property="Margin" To="-10,34,0,0"/>
-                            <units:ThickItem TargetName="cloud4" Duration="0:0:0.5" Property="Margin" To="-9,27,0,0" />
-                            <units:ValueItem TargetName="cloud1" Duration="0:0:0.5" Property="Opacity" To="0.5"/>
-                            <units:ValueItem TargetName="cloud2" Duration="0:0:0.5" Property="Opacity" To="1.0"/>
-                            <units:ValueItem TargetName="cloud3" Duration="0:0:0.5" Property="Opacity" To="1.0"/>
-                            <units:ValueItem TargetName="cloud4" Duration="0:0:0.5" Property="Opacity" To="0.5"/>
+                            <james:ThickItem TargetName="cloud1" Duration="0:0:0.5" Property="Margin" To="53,12,0,0"/>
+                            <james:ThickItem TargetName="cloud2" Duration="0:0:0.5" Property="Margin" To="45,26,0,0"/>
+                            <james:ThickItem TargetName="cloud3" Duration="0:0:0.5" Property="Margin" To="-10,34,0,0"/>
+                            <james:ThickItem TargetName="cloud4" Duration="0:0:0.5" Property="Margin" To="-9,27,0,0" />
+                            <james:ValueItem TargetName="cloud1" Duration="0:0:0.5" Property="Opacity" To="0.5"/>
+                            <james:ValueItem TargetName="cloud2" Duration="0:0:0.5" Property="Opacity" To="1.0"/>
+                            <james:ValueItem TargetName="cloud3" Duration="0:0:0.5" Property="Opacity" To="1.0"/>
+                            <james:ValueItem TargetName="cloud4" Duration="0:0:0.5" Property="Opacity" To="0.5"/>
                         </Storyboard>
                         <Storyboard x:Key="StarsIn">
-                            <units:ValueItem TargetName="galaxy" Duration="0:0:0.5" Property="Opacity" To="0"/>
-                            <units:ThickItem TargetName="galaxy" Duration="0:0:0.5" Property="Margin" To="0,-50,0,0"/>
-                            <units:ThickItem TargetName="circle" Duration="0:0:0.5" Property="Margin" To="8,0,0,0" Mode="EaseInOut"/>
-                            <units:ColorItem TargetName="circle" Duration="0:0:0.5" Property="(Fill).(SolidColorBrush.Color)" To="#ffb15f"/>
-                            <units:ColorItem TargetName="border" Duration="0:0:0.5" Property="(Background).(SolidColorBrush.Color)" To="#8cbcfa"/>
+                            <james:ValueItem TargetName="galaxy" Duration="0:0:0.5" Property="Opacity" To="0"/>
+                            <james:ThickItem TargetName="galaxy" Duration="0:0:0.5" Property="Margin" To="0,-50,0,0"/>
+                            <james:ThickItem TargetName="circle" Duration="0:0:0.5" Property="Margin" To="8,0,0,0" Mode="EaseInOut"/>
+                            <james:ColorItem TargetName="circle" Duration="0:0:0.5" Property="(Fill).(SolidColorBrush.Color)" To="#ffb15f"/>
+                            <james:ColorItem TargetName="border" Duration="0:0:0.5" Property="(Background).(SolidColorBrush.Color)" To="#8cbcfa"/>
                         </Storyboard>
                         <Storyboard x:Key="StarsOut">
-                            <units:ValueItem TargetName="galaxy" Duration="0:0:0.5" Property="Opacity" To="1"/>
-                            <units:ThickItem TargetName="galaxy" Duration="0:0:0.5" Property="Margin" To="0"/>
-                            <units:ThickItem TargetName="circle" Duration="0:0:0.5" Property="Margin" To="82,0,0,0" Mode="EaseInOut"/>
-                            <units:ColorItem TargetName="circle" Duration="0:0:0.5" Property="(Fill).(SolidColorBrush.Color)" To="#e6b91b"/>
-                            <units:ColorItem TargetName="border" Duration="0:0:0.5" Property="(Background).(SolidColorBrush.Color)" To="#191c25"/>
+                            <james:ValueItem TargetName="galaxy" Duration="0:0:0.5" Property="Opacity" To="1"/>
+                            <james:ThickItem TargetName="galaxy" Duration="0:0:0.5" Property="Margin" To="0"/>
+                            <james:ThickItem TargetName="circle" Duration="0:0:0.5" Property="Margin" To="82,0,0,0" Mode="EaseInOut"/>
+                            <james:ColorItem TargetName="circle" Duration="0:0:0.5" Property="(Fill).(SolidColorBrush.Color)" To="#e6b91b"/>
+                            <james:ColorItem TargetName="border" Duration="0:0:0.5" Property="(Background).(SolidColorBrush.Color)" To="#191c25"/>
                         </Storyboard>
                     </ControlTemplate.Resources>
                     <Border BorderThickness="{TemplateBinding BorderThickness}"

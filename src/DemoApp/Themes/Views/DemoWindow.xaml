@@ -3,10 +3,14 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:themeswitch="https://jamesnet.dev/xaml/presentation/themeswitch"
     xmlns:james="https://jamesnet.dev/xaml/presentation"
+    xmlns:attached="clr-namespace:DemoApp.Local.Helpers"
     xmlns:views="clr-namespace:DemoApp.UI.Views">
+
+    <SolidColorBrush x:Key="BaseBackColor" Color="{DynamicResource Themes.BaseBackColor}"/>
+
     <Style TargetType="{x:Type views:DemoWindow}"
            BasedOn="{StaticResource {x:Type james:DarkThemeWindow}}">
-        <Setter Property="Background" Value="{DynamicResource BaseBackColor}"/>
+        <Setter Property="james:AnimationExtensions.AnimatedBackground" Value="{StaticResource BaseBackColor}"/>
         <Setter Property="Title" Value="{DynamicResource ApplicationTitle}"/>
         <Setter Property="Content">
             <Setter.Value>

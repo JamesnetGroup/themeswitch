@@ -27,7 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Jamesnet.Wpf" Version="1.0.0.88" />
+    <PackageReference Include="Jamesnet.Wpf" Version="1.0.0.98" />
   </ItemGroup>
 
   <ItemGroup>
