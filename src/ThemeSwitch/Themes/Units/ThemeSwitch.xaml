@@ -16,6 +16,12 @@
             </Setter.Value>
         </Setter>
     </Style>
+
+    <Style TargetType="{x:Type Border}" x:Key="BaseColorStyle">
+        <Setter Property="Background" Value="#8cbcfa"/>
+        <Setter Property="CornerRadius" Value="25"/>
+        <Setter Property="Visibility" Value="Visible"/>
+    </Style>
     
     <Style TargetType="{x:Type Ellipse}" x:Key="CircleStyle" >
         <Setter Property="Width" Value="40"/>
@@ -93,7 +99,7 @@
                             CornerRadius="{TemplateBinding CornerRadius}">
                         <Viewbox>
                             <Grid Style="{StaticResource RoundGridStyle}">
-                                <Border x:Name="border" Background="#8cbcfa" CornerRadius="25" Visibility="Visible"/>
+                                <Border x:Name="border" Style="{StaticResource BaseColorStyle}"/>
                                 <Image x:Name="galaxy" Style="{StaticResource StartImageStyle}"/>
 
                                 <Image x:Name="cloud1" Style="{StaticResource CloudImageStyle}" Opacity="0.5" Margin="53,12,0,0"/>
