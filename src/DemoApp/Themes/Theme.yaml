@@ -6,5 +6,5 @@
 themes:
   - key: Themes.BaseBackColor
     colors:
-      black: "#2a3139"
-      light: "#f6e9d9"
+      black: "#3e3c3d"
+      light: "#f1f0e9"

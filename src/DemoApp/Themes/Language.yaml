@@ -2,8 +2,8 @@
   - key: ApplicationTitle
     items:
       usa: Theme Switch
-      kor: 컨트롤 해체 분석기
-      chn: 控制解剖分析仪
-      jpn: コントロールアナトミーアナライザー
-      vnm: Kiểm soát máy phân tích giải phẫu
-      esp: Analizador anatómico de control
+      kor: 테마 스위치
+      chn: 主题切换按钮
+      jpn: テーマ切り替え 
+      vnm: Chuyển đổi chủ đề
+      esp: Cambio de tema
