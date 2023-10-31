@@ -19,12 +19,9 @@ namespace ThemeSwitch.UI.Units
         {
             base.OnApplyTemplate();
 
-
-            // Storyboard를 찾음
             var slideOutStoryboard = this.FindResource("SlideOut") as Storyboard;
             if (slideOutStoryboard != null)
             {
-                // Storyboard를 사용함
                 slideOutStoryboard.Begin(this, this.Template, true);
             }
         }
