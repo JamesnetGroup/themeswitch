@@ -3,7 +3,7 @@
 
 | Video demo 1 |  Video demo 2 | 
 |:----:|:----:|
-| <video src="https://github.com/jamesnet214/themeswitch/assets/101777355/75edf82b-0c19-4332-bbbd-4c540fcd2ff9" /> | <video src="https://github.com/jamesnet214/themeswitch/assets/101777355/4793915b-322a-486d-94fc-a4013ac66b17" /> |
+|  <video src="https://github.com/jamesnet214/themeswitch/assets/101777355/6bcd95fd-63cd-4b3b-8bec-9c0b8ad4006e" />  | <video src="https://github.com/jamesnet214/themeswitch/assets/101777355/75edf82b-0c19-4332-bbbd-4c540fcd2ff9" /> |
 
 
 
