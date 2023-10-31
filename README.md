@@ -1,8 +1,8 @@
 # ThemeSwitch
 ### 🔍 Preview
 
-<video src='https://github.com/jamesnet214/themeswitch/assets/101777355/75edf82b-0c19-4332-bbbd-4c540fcd2ff9' width=180/>
 
+https://github.com/jamesnet214/themeswitch/assets/101777355/75edf82b-0c19-4332-bbbd-4c540fcd2ff9
 
 
 ## ⛅️/🌙 ThemeSwitch
