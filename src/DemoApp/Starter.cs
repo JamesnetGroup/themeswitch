@@ -1,6 +1,4 @@
 ﻿using DemoApp.Properties;
-using Jamesnet.Wpf.Controls;
-using System.Windows;
 
 namespace DemoApp
 {
