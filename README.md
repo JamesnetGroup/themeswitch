@@ -1,7 +1,11 @@
 # ThemeSwitch
 ### 🔍 Preview
 
-https://github.com/jamesnet214/themeswitch/assets/52397976/c67fae8e-395a-406e-95b5-7be0ec08cf04
+
+https://github.com/jamesnet214/themeswitch/assets/101777355/75edf82b-0c19-4332-bbbd-4c540fcd2ff9
+
+
+
 
 ## ⛅️/🌙 ThemeSwitch
 #### 이 프로젝트는 WPF로 작성된 애플리케이션으로, 사용자가 버튼을 클릭하면 낮과 밤 테마 사이에서 전환할 수 있습니다.
