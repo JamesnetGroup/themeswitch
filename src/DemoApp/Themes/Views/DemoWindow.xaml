@@ -3,7 +3,6 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:themeswitch="https://jamesnet.dev/xaml/presentation/themeswitch"
     xmlns:james="https://jamesnet.dev/xaml/presentation"
-    xmlns:attached="clr-namespace:DemoApp.Local.Helpers"
     xmlns:views="clr-namespace:DemoApp.UI.Views">
 
     <SolidColorBrush x:Key="BaseBackColor" Color="{DynamicResource Themes.BaseBackColor}"/>
