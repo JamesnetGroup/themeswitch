@@ -3,7 +3,7 @@
 
 | Video demo 1 |  Video demo 2 | 
 |:----:|:----:|
-| <video src="https://github.com/jamesnet214/themeswitch/assets/101777355/75edf82b-0c19-4332-bbbd-4c540fcd2ff9" /> | <video src="https://github.com/jamesnet214/themeswitch/assets/101777355/4793915b-322a-486d-94fc-a4013ac66b17" /> |
+|  <video src="https://github.com/jamesnet214/themeswitch/assets/101777355/6bcd95fd-63cd-4b3b-8bec-9c0b8ad4006e" />  | <video src="https://github.com/jamesnet214/themeswitch/assets/101777355/1b0522cf-cbc6-4826-a697-9a061c81b503" /> |
 
 
 
@@ -17,3 +17,7 @@
 ### 📝 사용 방법:
 프로그램을 실행합니다.
 중앙에 위치한 버튼을 클릭하여 낮과 밤 테마를 전환합니다.
+
+
+
+
