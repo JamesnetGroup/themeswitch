@@ -14,23 +14,9 @@
 #### ThemeSwitch 버튼은 ToggleButton을 상속 받아 만든 CustomControl입니다. 이 컨트롤은 NuGet Package를 통해 다운로드 받을 수 있고, GitHub 레포지터리를 통해 원본 소스코드와 사용 방법이 포함된 데모 프로젝트 실행이 가능합니다.
 
 ### ✨ 사용된 애니메이션
-#### 🔘 ValueItem(DoubleAnimation): 
-#### 🔘 ThickItem(ThicknessAnimation)： 
-#### 🔘 ColorItem(ColorAnimation): 
-
-```xml
-<Storyboard x:Key="SlideOut">
-    <james:ThickItem TargetName="cloud1" Property="Margin" Mode="EaseInOut" Duration="0:0:0.5" To="-70 20 0 0"/>
-    <james:ThickItem TargetName="cloud2" Property="Margin" Mode="EaseInOut" Duration="0:0:0.5" To="-60 30 0 0"/>
-    <james:ThickItem TargetName="cloud3" Property="Margin" Mode="EaseInOut" Duration="0:0:0.5" To="135 20 0 0"/>
-    <james:ThickItem TargetName="cloud4" Property="Margin" Mode="EaseInOut" Duration="0:0:0.5" To="125 30 0 0"/>
-    <james:ThickItem TargetName="ellipse" Property="Margin" Mode="EaseInOut" Duration="0:0:0.5" To="74 4 4 4"/>
-    <james:ThickItem TargetName="galaxy" Property="Margin" Mode="EaseInOut" Duration="0:0:0.5" To="0 0 0 0"/>
-    <james:ColorItem TargetName="ellipse" Property="(Fill).Color" Mode="EaseInOut" Duration="0:0:0.5" To="#E5B91A"/>
-    <james:ColorItem TargetName="border" Property="(Background).Color" Mode="EaseInOut" Duration="0:0:0.5" To="#191C25"/>
-    <james:ValueItem TargetName="galaxy" Property="Opacity" Mode="EaseInOut" Duration="0:0:0.5" To="1"/>
-</Storyboard>
-```
+- [x] 🔘 ValueItem(DoubleAnimation): 
+- [x] 🔘 ThickItem(ThicknessAnimation)： 
+- [x] 🔘 ColorItem(ColorAnimation): 
 
 ### 사용된 이미지
 ##### *Visual Studio에서 직접 그리는 방법도 유튜브영상에 공개할 예정
