@@ -1,13 +1,28 @@
 ## ⛅️🌙 ThemeSwitch
 
-ThemeSwitch 버튼은 ToggleButton을 상속 받아 만든 CustomControl입니다. 이 컨트롤은 NuGet Package를 통해 다운로드 받을 수 있고, GitHub 레포지터리를 통해 원본 소스코드와 사용 방법이 포함된 데모 프로젝트 실행이 가능합니다.
+ThemeSwitch 컨트롤은 WPF ToggleButton을 상속 받아 만든 CustomControl입니다. 이 컨트롤은 NuGet Package를 통해 다운로드 받을 수 있고, GitHub 레포지터리를 통해 원본 소스코드와 사용 방법이 포함된 데모 프로젝트 실행이 가능합니다.
 
-[![downloads](https://img.shields.io/nuget/dt/ThemeSwitch)](https://www.nuget.org/packages/ThemeSwitch)
+[![Visual Studio](https://badgen.net/badge/icon/visualstudio?icon=visualstudio&label)](https://visualstudio.microsoft.com)
+[![Windows](https://badgen.net/badge/icon/windows?icon=windows&label)](https://microsoft.com/windows/)
+[![GitHub stars](https://badgen.net/github/stars/Naereen/Strapdown.js)](https://GitHub.com/Naereen/StrapDown.js/stargazers/)
+[![GitHub forks](https://badgen.net/github/forks/Naereen/Strapdown.js/)](https://GitHub.com/Naereen/StrapDown.js/network/)
 
 <br/>
 
 <img src="https://github.com/jamesnet214/themeswitch/assets/101777355/04becee5-667b-4df8-a11a-59151610a338" width="500px"/>
 
+<br/>
+<br/>
+
+## NuGet Package
+ThemeSwitch 컨트롤은 NuGet Pckage를 통해 무료 라이브러리로 제공되고 있습니다. 모든 WPF 버전에서 사용이 가능하도록 멀티 타겟팅 프레임워크로 배포됩니다.
+
+[![latest version](https://img.shields.io/nuget/v/ThemeSwitch)](https://www.nuget.org/packages/ThemeSwitch)
+[![downloads](https://img.shields.io/nuget/dt/ThemeSwitch)](https://www.nuget.org/packages/ThemeSwitch)
+[![dotnet](https://img.shields.io/badge/dotnet-framework4.6-blue)]()
+[![dotnet](https://img.shields.io/badge/dotnet-net6.0-blue)]()
+
+<img width="300" alt="image" src="https://github.com/jamesnet214/themeswitch/assets/52397976/a9692fcc-b099-499b-b3ae-955b0dfcdcf0">
 <br/>
 <br/>
 
