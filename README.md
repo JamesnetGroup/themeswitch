@@ -2,6 +2,8 @@
 
 ThemeSwitch 버튼은 ToggleButton을 상속 받아 만든 CustomControl입니다. 이 컨트롤은 NuGet Package를 통해 다운로드 받을 수 있고, GitHub 레포지터리를 통해 원본 소스코드와 사용 방법이 포함된 데모 프로젝트 실행이 가능합니다.
 
+[![downloads](https://img.shields.io/nuget/dt/Microsoft.ThemeSwitch)](https://www.nuget.org/packages/ThemeSwitch)
+
 <br/>
 
 <img src="https://github.com/jamesnet214/themeswitch/assets/101777355/04becee5-667b-4df8-a11a-59151610a338" width="500px"/>
