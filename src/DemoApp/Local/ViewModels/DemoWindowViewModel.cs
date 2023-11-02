@@ -4,7 +4,7 @@ using Jamesnet.Wpf.Mvvm;
 
 namespace DemoApp.Local.ViewModels
 {
-    internal partial class DemoWindowViewModel : ObservableWindow
+    internal partial class DemoWindowViewModel : ObservableBase
     {
         private readonly ResourceManager _resourceManager;
         [ObservableProperty]

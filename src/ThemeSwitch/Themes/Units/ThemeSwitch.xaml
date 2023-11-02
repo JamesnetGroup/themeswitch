@@ -82,14 +82,14 @@
                         <Storyboard x:Key="StarsIn">
                             <james:ValueItem TargetName="galaxy" Duration="0:0:0.5" Property="Opacity" To="0"/>
                             <james:ThickItem TargetName="galaxy" Duration="0:0:0.5" Property="Margin" To="0,-50,0,0"/>
-                            <james:ThickItem TargetName="circle" Duration="0:0:0.5" Property="Margin" To="8,0,0,0" Mode="EaseInOut"/>
+                            <james:ThickItem TargetName="circle" Duration="0:0:0.5" Property="Margin" To="8,0,0,0" Mode="CubicEaseInOut"/>
                             <james:ColorItem TargetName="circle" Duration="0:0:0.5" Property="(Fill).(SolidColorBrush.Color)" To="#ffb15f"/>
                             <james:ColorItem TargetName="border" Duration="0:0:0.5" Property="(Background).(SolidColorBrush.Color)" To="#8cbcfa"/>
                         </Storyboard>
                         <Storyboard x:Key="StarsOut">
                             <james:ValueItem TargetName="galaxy" Duration="0:0:0.5" Property="Opacity" To="1"/>
                             <james:ThickItem TargetName="galaxy" Duration="0:0:0.5" Property="Margin" To="0"/>
-                            <james:ThickItem TargetName="circle" Duration="0:0:0.5" Property="Margin" To="82,0,0,0" Mode="EaseInOut"/>
+                            <james:ThickItem TargetName="circle" Duration="0:0:0.5" Property="Margin" To="82,0,0,0" Mode="CubicEaseInOut"/>
                             <james:ColorItem TargetName="circle" Duration="0:0:0.5" Property="(Fill).(SolidColorBrush.Color)" To="#e6b91b"/>
                             <james:ColorItem TargetName="border" Duration="0:0:0.5" Property="(Background).(SolidColorBrush.Color)" To="#191c25"/>
                         </Storyboard>
