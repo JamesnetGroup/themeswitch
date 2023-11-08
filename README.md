@@ -1,5 +1,5 @@
 
-<img src="https://github.com/jamesnet214/themeswitch/assets/101777355/694f24e6-84d0-4752-bf57-dabb4b84189c" width="600px"/>
+<img src="https://github.com/jamesnet214/themeswitch/assets/101777355/694f24e6-84d0-4752-bf57-dabb4b84189c" width="1000px"/>
 <br/>
 
 ## 🔘 ThemeSwitch
