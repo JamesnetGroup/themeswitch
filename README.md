@@ -2,7 +2,7 @@
 <img src="https://github.com/jamesnet214/themeswitch/assets/101777355/694f24e6-84d0-4752-bf57-dabb4b84189c" width="600px"/>
 <br/>
 
-## ⛅️🌙 ThemeSwitch
+## 🔘 ThemeSwitch
 ThemeSwitch 컨트롤은 WPF ToggleButton을 상속 받아 만든 CustomControl입니다. 이 컨트롤은 NuGet Package를 통해 다운로드 받을 수 있고, GitHub 레포지터리를 통해 원본 소스코드와 사용 방법이 포함된 데모 프로젝트 실행이 가능합니다.
 
 [![Visual Studio](https://badgen.net/badge/icon/visualstudio?icon=visualstudio&label)](https://visualstudio.microsoft.com)
