@@ -8,8 +8,7 @@ ThemeSwitch 컨트롤은 WPF ToggleButton을 상속 받아 만든 CustomControl�
 [![GitHub forks](https://badgen.net/github/forks/Naereen/Strapdown.js/)](https://GitHub.com/Naereen/StrapDown.js/network/)
 
 <br/>
-
-<img src="https://github.com/jamesnet214/themeswitch/assets/101777355/04becee5-667b-4df8-a11a-59151610a338" width="500px"/>
+<img src="https://github.com/jamesnet214/themeswitch/assets/101777355/694f24e6-84d0-4752-bf57-dabb4b84189c" width="500px"/>
 
 <br/>
 <br/>
@@ -47,8 +46,6 @@ ThemeSwitch 컨트롤은 NuGet Pckage를 통해 무료 라이브러리로 제공
 - [x] 구름들 _(Ellipse)_
 - [x] 밤하늘의 별들 _(Rectangle)_
 <img src="https://github.com/jamesnet214/themeswitch/assets/101777355/0d88f040-b401-4a04-aa7c-c9d6f7239dad" width="300px"/>
-
-
 
 <br/>
 
