@@ -25,7 +25,7 @@ ThemeSwitch 컨트롤은 NuGet Pckage를 통해 무료 라이브러리로 제공
 
 <img width="300" alt="image" src="https://github.com/jamesnet214/themeswitch/assets/52397976/a9692fcc-b099-499b-b3ae-955b0dfcdcf0">
 <br/>
-<br/>
+
 
 
 ## 🎬 구현 영상 
@@ -33,7 +33,7 @@ ThemeSwitch 컨트롤은 NuGet Pckage를 통해 무료 라이브러리로 제공
 - [English (Youtube)](https://www.youtube.com/watch?v=rGox76Bm6VY&t=1128s)
 - [Chinese (BiliBili)](https://www.bilibili.com/video/BV1ez4y1N7B8/?spm_id_from=333.999.0.0&vd_source=f62a1783ac9166a4d798823ad1861fd2)
 - Korean (준비중)
-- 
+  
 <br/>
 
 ## ✨ 사용된 애니메이션
@@ -61,8 +61,6 @@ ThemeSwitch 컨트롤은 NuGet Pckage를 통해 무료 라이브러리로 제공
 | Video 1 |  Video 2 | 
 |:----:|:----:|
 |  <video src="https://github.com/jamesnet214/themeswitch/assets/101777355/6bcd95fd-63cd-4b3b-8bec-9c0b8ad4006e" />  | <video src="https://github.com/jamesnet214/themeswitch/assets/101777355/1b0522cf-cbc6-4826-a697-9a061c81b503" /> |
-
-
 
 <br/>
 
