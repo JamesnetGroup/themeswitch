@@ -10,12 +10,13 @@ The ThemeSwitch control is a CustomControl built on top of the WPF ToggleButton.
 
 The ThemeSwitch is distributed as a multi-targeting framework free library through NuGet Package, ensuring compatibility across all WPF versions.
 
-It features three animation types:
+It features three **animation types**:
 
-ValueItem (DoubleAnimation)
-ThickItem (ThicknessAnimation)
-ColorItem (ColorAnimation)
-Yutube：Use WPF to create a day and night Toggle Switch Button |GitHub Source Code | NuGet - YouTube
+- ValueItem (DoubleAnimation)
+- ThickItem (ThicknessAnimation)
+- ColorItem (ColorAnimation)
+
+Yutube：[Use WPF to create a day and night Toggle Switch Button | GitHub Source Code | NuGet - YouTube]()
 
 
 ## Background
