@@ -1,39 +1,11 @@
-
-<img src="https://github.com/jamesnet214/themeswitch/assets/52397976/0d67142a-40a1-4265-a43e-598760d5612e" width="500px"/>
-
-## Toggle Switch Button
-The ThemeSwitch control is a CustomControl built on top of the WPF ToggleButton. This control is accessible for download as a NuGet Package, with the option to run a demo project from a GitHub repository that includes the original source code and instructions.
-
-[![Visual Studio](https://badgen.net/badge/icon/visualstudio?icon=visualstudio&label)](https://visualstudio.microsoft.com)
-[![Windows](https://badgen.net/badge/icon/windows?icon=windows&label)](https://microsoft.com/windows/)
-[![GitHub stars](https://badgen.net/github/stars/Naereen/Strapdown.js)](https://GitHub.com/Naereen/StrapDown.js/stargazers/)
-[![GitHub forks](https://badgen.net/github/forks/Naereen/Strapdown.js/)](https://GitHub.com/Naereen/StrapDown.js/network/)
-
-The ThemeSwitch is distributed as a multi-targeting framework free library through NuGet Package, ensuring compatibility across all WPF versions.
-
-[![latest version](https://img.shields.io/nuget/v/ThemeSwitch)](https://www.nuget.org/packages/ThemeSwitch)
-[![downloads](https://img.shields.io/nuget/dt/ThemeSwitch)](https://www.nuget.org/packages/ThemeSwitch)
-[![dotnet](https://img.shields.io/badge/dotnet-framework4.6-blue)]()
-[![dotnet](https://img.shields.io/badge/dotnet-net6.0-blue)]()
-
-
-#### ✨It features three animation types:
-
-- ValueItem (DoubleAnimation)
-- ThickItem (ThicknessAnimation)
-- ColorItem (ColorAnimation)
-
-#### 🎬Full Video
-- [English+Korean Sub (Youtube)](https://www.youtube.com/watch?v=rGox76Bm6VY&t=1128s)
-- [Chinese (BiliBili)](https://www.bilibili.com/video/BV1ez4y1N7B8/?spm_id_from=333.999.0.0&vd_source=f62a1783ac9166a4d798823ad1861fd2)
-
-<br/>
-
 #### How to create a day and night theme switch button using WPF
 The ThemeSwitch control is a customizable WPF ToggleButton-based control with three types of animations and is available as a NuGet Package, accompanied by a GitHub repository for the source code and instructions, designed to add engaging visual elements to WPF applications.
 
-CodeProject：[Use WPF to Create a Day and Night Theme Switch Button](https://www.codeproject.com/Articles/5372268/Use-WPF-to-Create-a-Day-and-Night-Theme-Switch-But)  
-NuGet：[NuGet Gallery | ThemeSwitch 1.0.0.8](https://www.nuget.org/packages/ThemeSwitch)
+#### 🎬Full Video
+- Youtube: [English+Korean Sub](https://www.youtube.com/watch?v=rGox76Bm6VY&t=1128s)
+- BiliBili: [Chinese](https://www.bilibili.com/video/BV1ez4y1N7B8/?spm_id_from=333.999.0.0&vd_source=f62a1783ac9166a4d798823ad1861fd2)
+- CodeProject：[Use WPF to Create a Day and Night Theme Switch Button](https://www.codeproject.com/Articles/5372268/Use-WPF-to-Create-a-Day-and-Night-Theme-Switch-But)  
+- NuGet：[NuGet Gallery | ThemeSwitch 1.0.0.8](https://www.nuget.org/packages/ThemeSwitch)
 
 <img src="https://github.com/vickyqu115/themeswitch/assets/52397976/558bebb6-355e-4616-8f53-bf74da45e1c8" width="600"/>
 
