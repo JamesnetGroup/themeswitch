@@ -1,4 +1,4 @@
-How to create a day and night theme switch button using WPF
+#### How to create a day and night theme switch button using WPF
 The ThemeSwitch control is a customizable WPF ToggleButton-based control with three types of animations and is available as a NuGet Package, accompanied by a GitHub repository for the source code and instructions, designed to add engaging visual elements to WPF applications.
 GitHub：vickyaqu115/themeswitch (github.com)
 NuGet：NuGet Gallery | ThemeSwitch 1.0.0.8
