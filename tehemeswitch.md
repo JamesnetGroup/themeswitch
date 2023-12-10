@@ -40,7 +40,11 @@ There are numerous methods for drawing special shapes, such as using pre-edited 
   For the daytime mode, the sun can be simply represented using the ellipse. The clouds, although seemingly complex, are quite straightforward to create. To see the drawing effects in real-time, we operate in the Mainwindow.
 We draw an appropriately sized circle and replicate it about eight times. These circles can be positioned using the mouse or arrow keys to achieve a cloud-like appearance. Visual Studio generates corresponding margin values based on the positions of these shapes, which we then incorporate into App.xaml. We create a cloud effect by adding varying degrees of transparency.
 
-  ![image](https://github.com/vickyqu115/themeswitch/assets/52397976/8de78a66-c295-4407-9c64-c139a4c51186)
+  ![image](https://github.com/vickyqu115/themeswitch/assets/52397976/9999a17f-6887-4a76-a59d-f71102fad6f0)
+
+  ![image](https://github.com/vickyqu115/themeswitch/assets/52397976/9284c148-08c0-4c96-b0d3-7eb93db11f56)
+
+  ![image](https://github.com/vickyqu115/themeswitch/assets/52397976/076ac645-adfa-4441-8c88-139a6dcf75d2)
 
   ```XAML
   <Grid Width="60" Height="30">
