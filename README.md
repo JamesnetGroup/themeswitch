@@ -124,7 +124,6 @@ We define a clipping shape using Geometry, specifically RectangleGeometry, with 
 ## Points of Interest
 The development process brought forth unique challenges, such as the feasibility of fulfilling UI design requirements in WPF programming without a designer's input, solely utilizing Visual Studio with straightforward operations. Furthermore, I explored enhancing visual experiences by implementing more naturally flowing animations.
 
-
 <br/>
 
 | Video 1 |  Video 2 | 
