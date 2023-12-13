@@ -26,8 +26,6 @@ NuGet：[NuGet Gallery | ThemeSwitch 1.0.0.8](https://www.nuget.org/packages/The
 ## Background
 Initially inspired by a YouTube video showcasing a day-to-night switch button designed in Figma, I took it upon myself to replicate the concept in WPF, my area of expertise. The final outcome was remarkable, and I am excited to share it with others. This journey also offered me the opportunity to impart my coding skills and tips to those who have an affinity for or are currently learning WPF development.
 
- 
-
 ## 1.Project Composition Analysis:
 
 ![image](https://github.com/vickyqu115/themeswitch/assets/52397976/60120c4c-8ccc-400a-b3b4-c39ddcb51868)
