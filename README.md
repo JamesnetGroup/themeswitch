@@ -14,6 +14,8 @@ ThemeSwitch is a CustomControl built on top of the WPF ToggleButton, designed to
 <img src="https://github.com/user-attachments/assets/b8d3b29e-2398-49b2-bb9d-59c5b0fa0aa1" width="49%"/>
 <img src="https://github.com/user-attachments/assets/9c835cdf-dd08-4e2d-bacb-4183d8366b1e" width="49%"/>
 <img src="https://github.com/user-attachments/assets/d77d1c5c-0f39-4d80-bbab-a47523c4a5f0" width="49%"/>
+<img src="https://github.com/user-attachments/assets/334aaa17-493d-4e24-b9b5-d1fd2a6ad8aa" width="49%"/>
+<img src="https://github.com/user-attachments/assets/83e5cbb5-c8d2-4dad-acd0-b3cae7dc9a6d" width="49%"/>
 <img src="https://github.com/user-attachments/assets/f2fe09b0-1fc1-43d5-8351-df7e348bad67" width="49%"/>
 
 ## Key Features and Implementations
