@@ -82,6 +82,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 - Website: https://jamesnet.dev
-- Email: james@jamesnet.dev, vickyqu115@hotmail.com
+- Email: vickyqu115@hotmail.com, james@jamesnet.dev
 
 Enhance your WPF applications with the engaging ThemeSwitch control!
