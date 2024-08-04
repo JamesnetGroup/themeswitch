@@ -73,6 +73,7 @@ git clone https://github.com/vickyqu115/themeswitch.git
 - [Detailed Article on Implementation (jamesnet.dev)](https://jamesnet.dev/article/109)
 - [YouTube Tutorial (English)](https://bit.ly/3uBkFlQ)
 - [BiliBili Tutorial (Chinese)](https://bit.ly/3uHFe08)
+- [CodeProject](https://www.codeproject.com/Articles/5372268/Use-WPF-to-Create-a-Day-and-Night-Theme-Switch-But)  
 
 ## Contributing
 Contributions to ThemeSwitch are welcome! Feel free to submit issues, create pull requests, or suggest improvements.
