@@ -65,28 +65,19 @@ git clone https://github.com/vickyqu115/themeswitch.git
 - [x] Press F5 or click the Run button
 - [x] Windows 11 recommended
 
-## Usage
-#### 1. Add the ThemeSwitch control to your XAML:
-```xaml
-<ThemeSwitch />
-```
+## Learning Resources
+- [Detailed Article on Implementation](https://jamesnet.dev/article/109)
+- [YouTube Tutorial (English)](https://bit.ly/3uBkFlQ)
+- [BiliBili Tutorial (Chinese)](https://bit.ly/3uHFe08)
 
-#### 2. Customize the control using available properties and styles
-#### 3. Bind the IsChecked property to your theme switching logic
-
-Learning Resources
-
-Detailed Article on Implementation
-YouTube Tutorial (English)
-BiliBili Tutorial (Chinese)
-
-Contributing
+## Contributing
 Contributions to ThemeSwitch are welcome! Feel free to submit issues, create pull requests, or suggest improvements.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-Contact
 
-Website: https://jamesnet.dev
-Email: james@jamesnet.dev, vickyqu115@hotmail.com
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+- Website: https://jamesnet.dev
+- Email: james@jamesnet.dev, vickyqu115@hotmail.com
 
 Enhance your WPF applications with the engaging ThemeSwitch control!
