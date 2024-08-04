@@ -82,6 +82,6 @@ git clone https://github.com/vickyqu115/themeswitch.git
 
 ## 联系方式
 - 网站：https://jamesnet.dev
-- 电子邮件：james@jamesnet.dev, vickyqu115@hotmail.com
+- 电子邮件：vickyqu115@hotmail.com, james@jamesnet.dev
 
 使用引人入胜的 ThemeSwitch 控件增强您的 WPF 应用程序！
