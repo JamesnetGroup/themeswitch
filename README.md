@@ -70,7 +70,7 @@ git clone https://github.com/vickyqu115/themeswitch.git
 - [x] Windows 11 recommended
 
 ## Learning Resources
-- [Detailed Article on Implementation](https://jamesnet.dev/article/109)
+- [Detailed Article on Implementation (jamesnet.dev)](https://jamesnet.dev/article/109)
 - [YouTube Tutorial (English)](https://bit.ly/3uBkFlQ)
 - [BiliBili Tutorial (Chinese)](https://bit.ly/3uHFe08)
 
