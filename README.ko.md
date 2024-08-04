@@ -82,6 +82,6 @@ ThemeSwitch에 대한 기여를 환영합니다! 이슈를 제출하거나, 풀 
 
 ## 연락처
 - 웹사이트: https://jamesnet.dev
-- 이메일: james@jamesnet.dev, vickyqu115@hotmail.com
+- 이메일: vickyqu115@hotmail.com, james@jamesnet.dev
 
 매력적인 ThemeSwitch 컨트롤로 WPF 애플리케이션을 향상시켜 보세요!
