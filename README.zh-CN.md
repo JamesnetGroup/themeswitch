@@ -73,6 +73,7 @@ git clone https://github.com/vickyqu115/themeswitch.git
 - [实现详细文章 (jamesnet.dev)](https://jamesnet.dev/article/109)
 - [YouTube 教程（英文）](https://bit.ly/3uBkFlQ)
 - [哔哩哔哩教程（中文）](https://bit.ly/3uHFe08)
+- [CodeProject Article](https://www.codeproject.com/Articles/5372268/Use-WPF-to-Create-a-Day-and-Night-Theme-Switch-But)  
 
 ## 贡献
 欢迎对 ThemeSwitch 做出贡献！随时提交问题、创建拉取请求或提出改进建议。
