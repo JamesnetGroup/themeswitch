@@ -11,10 +11,10 @@ A customizable WPF ToggleButton-based control for day and night theme switching 
 
 ThemeSwitch is a CustomControl built on top of the WPF ToggleButton, designed to provide an engaging visual element for theme switching in WPF applications. It features smooth animations for transitioning between day and night themes, demonstrating advanced WPF techniques and custom control development.
 
-<img src="https://jamesnetdev.blob.core.windows.net/articleimages/959df9c5-5f2e-44c2-94ac-030ff3f67836.png" width="49%"/>
-<img src="https://jamesnetdev.blob.core.windows.net/articleimages/959df9c5-5f2e-44c2-94ac-030ff3f67836.png" width="49%"/>
-<img src="https://jamesnetdev.blob.core.windows.net/articleimages/959df9c5-5f2e-44c2-94ac-030ff3f67836.png" width="49%"/>
-<img src="https://jamesnetdev.blob.core.windows.net/articleimages/959df9c5-5f2e-44c2-94ac-030ff3f67836.png" width="49%"/>
+<img src="https://github.com/user-attachments/assets/b8d3b29e-2398-49b2-bb9d-59c5b0fa0aa1" width="49%"/>
+<img src="https://github.com/user-attachments/assets/9c835cdf-dd08-4e2d-bacb-4183d8366b1e" width="49%"/>
+<img src="https://github.com/user-attachments/assets/d77d1c5c-0f39-4d80-bbab-a47523c4a5f0" width="49%"/>
+<img src="https://github.com/user-attachments/assets/f2fe09b0-1fc1-43d5-8351-df7e348bad67" width="49%"/>
 
 ## Key Features and Implementations
 #### 1. Custom WPF Control Development
